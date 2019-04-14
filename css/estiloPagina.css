@@ -1,0 +1,134 @@
+/*---------Propiedades generales-----------------------*/
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto');
+
+body{
+	margin-top:120px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 3%;
+	background-color: #eaebed;
+	font-family: 'Roboto', sans-serif;
+}
+/*---------Encabezado------------------------------------*/
+#encabezado_fijo{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+header{
+	background-color:#c2cad6;
+    color:white;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'Questrial', sans-serif;
+}
+nav{
+	background-color:#d2d5db;
+	text-align: right;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav a{
+	margin-right: 1%;
+	align-items: center;
+	color:gray;
+	text-decoration:none; 
+}
+
+#salir{
+	color: red;
+}
+
+/*---------Contenido--------------------------------------*/
+#contenido{
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+	color:gray;
+}
+article{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+footer{
+	padding-top: 10%;
+	text-align: right;
+	margin-right: 5px;
+	color:gray;
+}
+h4,p{
+	text-align: center;
+}
+/*OJO imagenes se adaptan al ancho de la pantalla cuando se redimensiona*/
+@media only screen and (max-width: 1300px){
+	div.imagenes, div.imagenes_horizontales{
+	display: -webkit-flex;
+    display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+}
+@media only screen and (max-width: 700px){
+	div.imagenes_verticales{
+	display: -webkit-flex;
+    display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+    }
+}
+/***************************************************/
+.imagenes,.imagenes_horizontales,.imagenes_verticales{
+	display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenes img{
+	width: 300px;
+	height: 300px;
+}
+.imagenes_horizontales img{
+    width: 400px;
+	height: 300px;
+}
+.imagenes_verticales img{
+	width: 200px;
+	height: 400px;
+}
+#linkExterno{
+	text-align: center;
+}
+#linkExterno a:hover{
+	color:red;
+}
+.video{
+	   text-align: center;
+}
+iframe{
+    border-width: 0px;
+}
+/*---------------------formulario------------------------------------*/
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+     width:985px; margin:0 auto
+}
+.botonEnviar{
+	background-color: white;
+	padding: 5px 10px 5px 10px;
+	border-radius:7px;
+
+}

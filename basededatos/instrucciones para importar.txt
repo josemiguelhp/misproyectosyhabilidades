@@ -1,0 +1,4 @@
+abra phpmyadmin
+cree una nueba base de datos llamada "proyecto" codificado en utf8_spanish_ci
+seleccione el boton de importar
+seleccione el archivo proyecto.sql

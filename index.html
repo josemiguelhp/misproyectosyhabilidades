@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>El Laboratorio de Jose</title>
+		<link rel="stylesheet" href="css/estiloPagina.css">
+	</head>
+<body>
+	    <header>
+			<h1>El Laboratorio de Jose</h1>
+		</header>
+		<hr />
+		<div class="form">
+		<form action="scripts/php/login.php" method="post"> 
+		 	<!--Nombre Usuario-->
+		 	<label>Nombre de Usuario:</label><br>
+			<input type="text" name="username" maxlength="32" required>
+			<br/><br/>
+			<!--Password-->
+			<label>Password:</label><br>
+			<input type="password" name="password" maxlength="8" required>
+			<br/><br/>
+			<input type="submit" name="submit" value="Logearme" class="botonEnviar">
+			<input type="reset" name="clear" value="Borrar" class="botonEnviar">
+ 		</form>
+ 	    </div>
+ 		<hr/>
+ 		<p>Si no estas registrado registrate <a href="registrar-usuario.html">Aqui</a>.</p>
+		
+
+</body>
+</html>
