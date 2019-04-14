@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>El Laboratorio de Jose</title>
+		<title>Jose Miguel H.P</title>
 		<link rel="stylesheet" href="css/estiloPagina.css">
 	</head>
 	<body>
 		<div id="encabezado_fijo">
 			<header>
-				El Laboratorio de Jose
+				Jose Miguel H.P
 			</header>
 			<nav>
 		  		<a href="#skills">Skills</a>
